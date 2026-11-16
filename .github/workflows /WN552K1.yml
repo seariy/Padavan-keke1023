@@ -51,7 +51,7 @@ jobs:
 
     - name: Build Firmware
       env:
-        TNAME: WDR7300
+        TNAME: K2P
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
